@@ -1,0 +1,114 @@
+body{
+    font-family: 'Baloo Bhaina 2', cursive;
+    color:white;
+    margin:0px 130px;
+    padding:0px;
+    background:url('fitness.jpg');
+    position:fixed;
+    background-repeat: no-repeat;  
+    background-position: 0% 14%;
+    background-size: cover; 
+
+
+}
+.left{
+    position:absolute;
+    left:34px;
+    top:20px;
+    display:inline-block;
+    /* border:2px solid white; */
+    left:8px;
+}
+.left img{
+    width:100px;
+    filter:invert(100%);
+}
+.left div{
+    line-height: 0px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -38px;
+    left: -11px;
+}
+.mid{
+    
+    display:block;
+    width:40%;
+    margin:29px auto;
+    /* border:2px solid white; */
+    border-radius:5px;
+}
+.right{ 
+    position:absolute;
+    right:-108px;
+    top:48px;
+    display:inline-block;
+    /* border:2px solid white; */
+    
+}
+.navbar{
+    display:inline-block;
+}
+.navbar li{
+    display:inline-block;
+    font-size:25px;
+}
+.navbar li a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding: 24px 12px;
+    position: relative;
+    left: 24px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color:gray;
+    
+}
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 9px 2px;
+    background-color: black;
+    color: white;
+    padding: 0px 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:gray;
+}
+.container{
+    font-size: 10px;
+    border: 2px solid white;
+    /* margin: 124px 530px; */
+    margin: 12px 429px;
+    padding: 16px;
+    width: 32%;
+    border-radius: 11px;
+    background-color: black;
+    opacity: 0.88;
+}
+.form-group input{
+font-family: 'Baloo Bhaina 2', cursive;
+text-align:center ;
+display:block;
+width:301px;
+padding:1px;
+border:2px solid black;
+margin:11px auto;
+font-size:18px;
+border-radius:8px;
+}
+.container h1{
+    text-align:center;
+    font-size:3em;
+}
+.container button{
+    display:block;
+    width:74%;
+    margin:20px auto;
+}
